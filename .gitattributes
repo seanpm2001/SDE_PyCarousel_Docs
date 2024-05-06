@@ -32,6 +32,10 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# ReStructuredText source file
+*.rst linguist-detectable=true
+*.rst linguist-documentation=false
+*.rst linguist-language=ReStructuredText
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -102,10 +106,6 @@
 *.txt linguist-detectable=false
 *.txt linguist-documentation=false
 *.txt linguist-language=Plain-Text
-# ReStructuredText
-*.rst linguist-detectable=false
-*.rst linguist-documentation=false
-*.rst linguist-language=ReStructured-Text
 # WikiText
 *.wiki linguist-detectable=false
 *.wiki linguist-documentation=false
@@ -161,10 +161,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2024, Monday, May 6th at 2:06 pm PST)
+# Line count (including blank lines and compiler line): 174
+
 # End of script
